@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Follow @realtrophysmart</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- Hero Section -->
+  <section class="min-h-screen bg-gradient-to-br from-purple-600 to-pink-500 flex items-center justify-center text-center px-6">
+    <div class="max-w-2xl text-white">
+      <h1 class="text-4xl md:text-6xl font-bold mb-6">Follow <span class="text-yellow-300">@realtrophysmart</span> on TikTok</h1>
+      <p class="text-xl mb-8">🔥 Want a Shoutout? Follow & Submit your TikTok handle below for a chance to get featured!</p>
+      <a href="https://www.tiktok.com/@realtrophysmart" target="_blank" class="inline-block bg-white text-pink-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition">Follow Me on TikTok</a>
+    </div>
+  </section>
+
+  <!-- TikTok Auto-Feed Section -->
+  <section class="py-16 bg-gray-100 text-center">
+    <h2 class="text-3xl font-bold mb-4">🎬 My TikTok Videos</h2>
+    <div class="flex justify-center">
+      <blockquote class="tiktok-embed"
+        cite="https://www.tiktok.com/@realtrophysmart"
+        data-unique-id="realtrophysmart"
+        data-embed-type="creator"
+        style="max-width: 100%; min-width: 100%;">
+        <section>Loading TikTok videos...</section>
+      </blockquote>
+      <script async src="https://www.tiktok.com/embed.js"></script>
+    </div>
+  </section>
+
+  <!-- Submission Form -->
+  <section class="py-16 px-6 bg-white text-center">
+    <div class="max-w-xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6">📩 Submit Your TikTok Handle</h2>
+      <form class="flex flex-col gap-4" method="POST" action="#">
+        <input type="text" name="handle" placeholder="@yourhandle" required class="p-3 border rounded-lg focus:outline-none focus:ring focus:border-blue-300" />
+        <button type="submit" class="bg-gradient-to-r from-pink-500 to-purple-600 text-white py-3 px-6 rounded-full font-semibold hover:opacity-90 transition">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6 text-center">
+    <p>&copy; 2025 @realtrophysmart. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
