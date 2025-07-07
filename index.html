@@ -38,12 +38,17 @@
     </div>
   </section>
 
-  <!-- Submission Form -->
+  <!-- Submission Form (Email to realtrophysmart@gmail.com) -->
   <section class="py-16 px-6 bg-white text-center">
     <div class="max-w-xl mx-auto">
       <h2 class="text-3xl font-bold mb-6">📩 Submit Your TikTok Handle</h2>
-      <form class="flex flex-col gap-4" method="POST" action="#">
-        <input type="text" name="handle" placeholder="@yourhandle" required class="p-3 border rounded-lg focus:outline-none focus:ring focus:border-blue-300" />
+      <form action="https://formsubmit.co/realtrophysmart@gmail.com" method="POST" class="flex flex-col gap-4">
+        <input type="text" name="TikTok Handle" placeholder="@yourhandle" required class="p-3 border rounded-lg focus:outline-none focus:ring focus:border-blue-300" />
+
+        <!-- Optional Settings -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://www.tiktok.com/@realtrophysmart">
+
         <button type="submit" class="bg-gradient-to-r from-pink-500 to-purple-600 text-white py-3 px-6 rounded-full font-semibold hover:opacity-90 transition">Submit</button>
       </form>
     </div>
