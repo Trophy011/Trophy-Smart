@@ -3,80 +3,58 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Follow @realtrophysmart</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Trophy Smart - Official TikTok Creator</title>
+
+  <!-- SEO Meta -->
+  <meta name="description" content="Trophy Smart official fan website. Watch TikTok videos, view photos, and apply for promo or collab.">
+  <meta name="keywords" content="Trophy Smart, realtrophysmart, TikTok influencer, promo, Nigeria TikTok star">
+  <meta name="author" content="Trophy Smart" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Trophy Smart - TikTok Influencer" />
+  <meta property="og:description" content="Follow @realtrophysmart, see videos, and request promotion or collab.">
+  <meta property="og:image" content="https://trophysmart.redirectme.net/profile.jpg" />
+  <meta property="og:url" content="https://trophysmart.redirectme.net" />
+  <link rel="icon" href="https://trophysmart.redirectme.net/favicon.ico" />
   <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-    }
-  </style>
-  <script>
-    function redirectToEmail() {
-      const handle = document.getElementById('handle').value;
-      const subject = encodeURIComponent('TikTok Handle Submission');
-      const body = encodeURIComponent(`Hi,\n\nMy TikTok handle is ${handle}.\nPlease boost my account.\n\nThanks!`);
-      window.location.href = `mailto:realtrophysmart@gmail.com?subject=${subject}&body=${body}`;
-    }
-  </script>
 </head>
-<body class="bg-white text-gray-900">
 
-  <!-- Hero Section -->
-  <section class="min-h-screen bg-gradient-to-br from-purple-600 to-pink-500 flex items-center justify-center text-center px-6">
-    <div class="max-w-2xl text-white">
-      <h1 class="text-4xl md:text-6xl font-bold mb-6">Follow <span class="text-yellow-300">@realtrophysmart</span> on TikTok</h1>
-      <p class="text-xl mb-8">🔥 Want a shoutout or promotion? Follow me & submit your handle below!</p>
-      <a href="https://www.tiktok.com/@realtrophysmart" target="_blank" class="inline-block bg-white text-pink-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition">Follow Me on TikTok</a>
-    </div>
+<body class="bg-black text-white font-sans">
+  <!-- Hero -->
+  <section class="flex flex-col items-center justify-center h-screen text-center px-4">
+    <img src="https://trophysmart.redirectme.net/profile.jpg" alt="Trophy Smart" class="w-32 h-32 rounded-full border-4 border-white shadow-xl mb-4">
+    <h1 class="text-4xl font-bold">Trophy Smart</h1>
+    <p class="text-lg mt-2">TikTok Creator | Promo | Fan Page</p>
+    <a href="https://www.tiktok.com/@realtrophysmart" target="_blank" class="mt-4 inline-block bg-white text-black px-6 py-2 rounded-full font-bold hover:bg-gray-200">
+      👉 @realtrophysmart on TikTok
+    </a>
   </section>
 
-  <!-- TikTok Auto-Feed Section -->
-  <section class="py-16 bg-gray-100 text-center">
-    <h2 class="text-3xl font-bold mb-4">🎬 My TikTok Videos</h2>
-    <div class="flex justify-center">
-      <blockquote class="tiktok-embed"
-        cite="https://www.tiktok.com/@realtrophysmart"
-        data-unique-id="realtrophysmart"
-        data-embed-type="creator"
-        style="max-width: 100%; min-width: 100%;">
-        <section>Loading TikTok videos...</section>
-      </blockquote>
-      <script async src="https://www.tiktok.com/embed.js"></script>
-    </div>
+  <!-- TikTok Videos -->
+  <section class="bg-gray-900 text-center p-8">
+    <h2 class="text-2xl font-semibold mb-4">🎥 Latest TikToks</h2>
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@realtrophysmart" data-unique-id="realtrophysmart" data-embed-type="creator">
+      <section>Loading videos...</section>
+    </blockquote>
+    <script async src="https://www.tiktok.com/embed.js"></script>
   </section>
 
-  <!-- Submission Form -->
-  <section class="py-16 px-6 bg-white text-center">
-    <div class="max-w-xl mx-auto">
-      <h2 class="text-3xl font-bold mb-6">📩 Submit Your TikTok Handle</h2>
-      <form onsubmit="redirectToEmail(); return false;" class="flex flex-col gap-4">
-        <input type="text" id="handle" name="TikTok Handle" placeholder="@yourhandle" required class="p-3 border rounded-lg focus:outline-none focus:ring focus:border-blue-300" />
-        <button type="submit" class="bg-gradient-to-r from-pink-500 to-purple-600 text-white py-3 px-6 rounded-full font-semibold hover:opacity-90 transition">Submit</button>
-      </form>
-    </div>
-  </section>
-
-  <!-- Promotions & Collaboration Panel -->
-  <section class="py-16 bg-gray-100 text-center px-6">
-    <div class="max-w-3xl mx-auto">
-      <h2 class="text-3xl font-bold mb-4">📢 Promotions & Collaborations</h2>
-      <p class="text-lg mb-6">
-        Want to promote your brand or collaborate with <strong>@realtrophysmart</strong>?  
-        We accept promotions, paid shoutouts, content collabs, and more.
-      </p>
-      <a 
-        href="mailto:realtrophysmart@gmail.com?subject=Promotion%20or%20Collaboration%20Request&body=Hi,%0D%0AI'm interested in collaborating with you.%0D%0AHere are my details:"
-        class="inline-block bg-pink-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-pink-700 transition">
-        Apply Now
-      </a>
-    </div>
+  <!-- Promo Section -->
+  <section class="bg-gray-800 text-center p-8">
+    <h2 class="text-2xl font-semibold mb-2">📩 Promotions & Collabs</h2>
+    <p class="mb-4 text-gray-300">Want a promo or collab? Send your info:</p>
+    <form action="mailto:realtrophysmart@gmail.com" method="POST" enctype="text/plain" class="max-w-md mx-auto">
+      <input type="text" name="username" placeholder="Your Name or Brand" required class="w-full p-2 mb-2 rounded bg-gray-700 text-white" />
+      <input type="email" name="email" placeholder="Your Email" required class="w-full p-2 mb-2 rounded bg-gray-700 text-white" />
+      <textarea name="message" rows="4" placeholder="Tell me about the promo or idea..." required class="w-full p-2 mb-2 rounded bg-gray-700 text-white"></textarea>
+      <button type="submit" class="bg-white text-black px-6 py-2 rounded-full font-bold hover:bg-gray-200">
+        Send Request
+      </button>
+    </form>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-gray-900 text-white py-6 text-center">
-    <p>&copy; 2025 @realtrophysmart. All rights reserved.</p>
+  <footer class="bg-black text-center py-4 text-sm text-gray-400">
+    &copy; 2025 Trophy Smart. All rights reserved.
   </footer>
-
 </body>
 </html>
