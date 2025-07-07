@@ -4,57 +4,55 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Trophy Smart - Official TikTok Creator</title>
-
-  <!-- SEO Meta -->
-  <meta name="description" content="Trophy Smart official fan website. Watch TikTok videos, view photos, and apply for promo or collab.">
-  <meta name="keywords" content="Trophy Smart, realtrophysmart, TikTok influencer, promo, Nigeria TikTok star">
-  <meta name="author" content="Trophy Smart" />
-  <meta name="robots" content="index, follow" />
-  <meta property="og:title" content="Trophy Smart - TikTok Influencer" />
-  <meta property="og:description" content="Follow @realtrophysmart, see videos, and request promotion or collab.">
+  <meta name="description" content="Follow Trophy Smart on TikTok. View latest videos, book promos and collaborations.">
   <meta property="og:image" content="https://trophysmart.redirectme.net/profile.jpg" />
-  <meta property="og:url" content="https://trophysmart.redirectme.net" />
   <link rel="icon" href="https://trophysmart.redirectme.net/favicon.ico" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #000000, #1a1a1a);
+    }
+    .glass {
+      backdrop-filter: blur(12px);
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+  </style>
 </head>
-
-<body class="bg-black text-white font-sans">
+<body class="text-white font-sans">
   <!-- Hero -->
-  <section class="flex flex-col items-center justify-center h-screen text-center px-4">
-    <img src="https://trophysmart.redirectme.net/profile.jpg" alt="Trophy Smart" class="w-32 h-32 rounded-full border-4 border-white shadow-xl mb-4">
-    <h1 class="text-4xl font-bold">Trophy Smart</h1>
-    <p class="text-lg mt-2">TikTok Creator | Promo | Fan Page</p>
-    <a href="https://www.tiktok.com/@realtrophysmart" target="_blank" class="mt-4 inline-block bg-white text-black px-6 py-2 rounded-full font-bold hover:bg-gray-200">
-      👉 @realtrophysmart on TikTok
+  <section class="h-screen flex flex-col items-center justify-center text-center px-6">
+    <img src="https://trophysmart.redirectme.net/profile.jpg" onerror="this.style.display='none'" alt="Trophy Smart" class="w-32 h-32 rounded-full shadow-xl border-4 border-white mb-4">
+    <h1 class="text-5xl font-extrabold tracking-tight">Trophy Smart</h1>
+    <p class="text-lg mt-2 text-gray-300">TikTok Star • Influencer • Promotions</p>
+    <a href="https://www.tiktok.com/@realtrophysmart" target="_blank" class="mt-5 inline-block bg-white text-black font-bold px-6 py-2 rounded-full hover:bg-gray-300 transition-all">
+      🎥 Visit TikTok @realtrophysmart
     </a>
   </section>
 
-  <!-- TikTok Videos -->
-  <section class="bg-gray-900 text-center p-8">
-    <h2 class="text-2xl font-semibold mb-4">🎥 Latest TikToks</h2>
+  <!-- TikTok Embed -->
+  <section class="p-10 bg-gray-900 text-center">
+    <h2 class="text-3xl font-semibold mb-4">🎬 Latest TikToks</h2>
     <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@realtrophysmart" data-unique-id="realtrophysmart" data-embed-type="creator">
-      <section>Loading videos...</section>
+      <section>Loading TikToks...</section>
     </blockquote>
     <script async src="https://www.tiktok.com/embed.js"></script>
   </section>
 
-  <!-- Promo Section -->
-  <section class="bg-gray-800 text-center p-8">
-    <h2 class="text-2xl font-semibold mb-2">📩 Promotions & Collabs</h2>
-    <p class="mb-4 text-gray-300">Want a promo or collab? Send your info:</p>
-    <form action="mailto:realtrophysmart@gmail.com" method="POST" enctype="text/plain" class="max-w-md mx-auto">
-      <input type="text" name="username" placeholder="Your Name or Brand" required class="w-full p-2 mb-2 rounded bg-gray-700 text-white" />
-      <input type="email" name="email" placeholder="Your Email" required class="w-full p-2 mb-2 rounded bg-gray-700 text-white" />
-      <textarea name="message" rows="4" placeholder="Tell me about the promo or idea..." required class="w-full p-2 mb-2 rounded bg-gray-700 text-white"></textarea>
-      <button type="submit" class="bg-white text-black px-6 py-2 rounded-full font-bold hover:bg-gray-200">
-        Send Request
-      </button>
+  <!-- Promo Form -->
+  <section class="p-10 glass rounded-lg mx-auto max-w-xl text-center shadow-2xl">
+    <h2 class="text-2xl font-semibold mb-2">📬 Promotions & Collabs</h2>
+    <p class="text-gray-300 mb-4">Send me your promo or collab request:</p>
+    <form action="mailto:realtrophysmart@gmail.com" method="POST" enctype="text/plain" class="space-y-3">
+      <input type="text" name="username" placeholder="Your Name" required class="w-full p-3 rounded bg-gray-800 text-white border border-gray-600">
+      <input type="email" name="email" placeholder="Your Email" required class="w-full p-3 rounded bg-gray-800 text-white border border-gray-600">
+      <textarea name="message" placeholder="Your message..." rows="4" required class="w-full p-3 rounded bg-gray-800 text-white border border-gray-600"></textarea>
+      <button type="submit" class="bg-white text-black font-bold px-6 py-2 rounded-full hover:bg-gray-300">Send</button>
     </form>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-black text-center py-4 text-sm text-gray-400">
-    &copy; 2025 Trophy Smart. All rights reserved.
+  <footer class="text-center mt-10 py-4 text-gray-400 text-sm">
+    &copy; 2025 Trophy Smart — All rights reserved
   </footer>
 </body>
 </html>
