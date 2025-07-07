@@ -4,13 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Trophy Smart - Official TikTok Creator</title>
-  <meta name="description" content="Follow Trophy Smart on TikTok. View latest videos, book promos and collaborations.">
+
+  <meta name="description" content="Follow Trophy Smart on TikTok. Watch latest videos, book promos, and collaborations.">
   <meta property="og:image" content="https://trophysmart.redirectme.net/profile.jpg" />
   <link rel="icon" href="https://trophysmart.redirectme.net/favicon.ico" />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body {
-      background: linear-gradient(to bottom right, #000000, #1a1a1a);
+      background: linear-gradient(to bottom right, #0d47a1, #1976d2);
     }
     .glass {
       backdrop-filter: blur(12px);
@@ -18,40 +19,41 @@
     }
   </style>
 </head>
+
 <body class="text-white font-sans">
-  <!-- Hero -->
+  <!-- Hero Section -->
   <section class="h-screen flex flex-col items-center justify-center text-center px-6">
     <img src="https://trophysmart.redirectme.net/profile.jpg" onerror="this.style.display='none'" alt="Trophy Smart" class="w-32 h-32 rounded-full shadow-xl border-4 border-white mb-4">
     <h1 class="text-5xl font-extrabold tracking-tight">Trophy Smart</h1>
-    <p class="text-lg mt-2 text-gray-300">TikTok Star • Influencer • Promotions</p>
-    <a href="https://www.tiktok.com/@realtrophysmart" target="_blank" class="mt-5 inline-block bg-white text-black font-bold px-6 py-2 rounded-full hover:bg-gray-300 transition-all">
-      🎥 Visit TikTok @realtrophysmart
+    <p class="text-lg mt-2 text-gray-200">TikTok Star • Influencer • Promotions</p>
+    <a href="https://www.tiktok.com/@realtrophysmart" target="_blank" class="mt-5 inline-block bg-white text-black font-bold px-6 py-2 rounded-full hover:bg-blue-200 transition-all">
+      🎥 @realtrophysmart on TikTok
     </a>
   </section>
 
-  <!-- TikTok Embed -->
-  <section class="p-10 bg-gray-900 text-center">
-    <h2 class="text-3xl font-semibold mb-4">🎬 Latest TikToks</h2>
-    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@realtrophysmart" data-unique-id="realtrophysmart" data-embed-type="creator">
-      <section>Loading TikToks...</section>
+  <!-- TikTok Profile Embed -->
+  <section class="bg-blue-900 text-center p-10">
+    <h2 class="text-3xl font-bold mb-6">🎬 Latest TikToks</h2>
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@realtrophysmart" data-unique-id="realtrophysmart" data-embed-type="creator" style="max-width: 340px; margin: 0 auto;">
+      <section>Loading TikTok...</section>
     </blockquote>
     <script async src="https://www.tiktok.com/embed.js"></script>
   </section>
 
-  <!-- Promo Form -->
+  <!-- Promo / Collab Panel -->
   <section class="p-10 glass rounded-lg mx-auto max-w-xl text-center shadow-2xl">
     <h2 class="text-2xl font-semibold mb-2">📬 Promotions & Collabs</h2>
-    <p class="text-gray-300 mb-4">Send me your promo or collab request:</p>
+    <p class="text-gray-300 mb-4">Want to work with me? Send your request:</p>
     <form action="mailto:realtrophysmart@gmail.com" method="POST" enctype="text/plain" class="space-y-3">
-      <input type="text" name="username" placeholder="Your Name" required class="w-full p-3 rounded bg-gray-800 text-white border border-gray-600">
+      <input type="text" name="username" placeholder="Your Name or Brand" required class="w-full p-3 rounded bg-gray-800 text-white border border-gray-600">
       <input type="email" name="email" placeholder="Your Email" required class="w-full p-3 rounded bg-gray-800 text-white border border-gray-600">
       <textarea name="message" placeholder="Your message..." rows="4" required class="w-full p-3 rounded bg-gray-800 text-white border border-gray-600"></textarea>
-      <button type="submit" class="bg-white text-black font-bold px-6 py-2 rounded-full hover:bg-gray-300">Send</button>
+      <button type="submit" class="bg-white text-black font-bold px-6 py-2 rounded-full hover:bg-blue-200">Send</button>
     </form>
   </section>
 
   <!-- Footer -->
-  <footer class="text-center mt-10 py-4 text-gray-400 text-sm">
+  <footer class="text-center mt-10 py-4 text-gray-300 text-sm">
     &copy; 2025 Trophy Smart — All rights reserved
   </footer>
 </body>
